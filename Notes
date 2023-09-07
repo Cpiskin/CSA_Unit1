@@ -1,1 +1,15 @@
+Notes for Primitive Type Unite 1 Reading Section
 
+Keywords such as public, class, and if must be in lowercase.
+Class names, however, such as System and String are capitalized.
+
+ints in Java are always 32-bit signed values which mean they can represent values from negative 2 to the power of 31 and  negative 2 to the power of 31 minus 1
+while the range of consecutive integer values that can be represented by a double is from 
+negative 2 to the power of 53 to positive 2 to power of 53
+
+
+If the lines start a construct, there is no semicolon.  Instead, curly brackets are used {  }
+
+System.out.println adds a new line after beeing displayed while System.out.print does not.
+
+When Java sees you doing integer division it assumes you want an integer result so it throws away anything after the decimal point in the answer.
